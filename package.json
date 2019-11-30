@@ -1,0 +1,22 @@
+{
+  "name": "rxjs-demo",
+  "version": "1.0.0",
+  "description": "rxjs examples",
+  "main": "index.js",
+  "author": "Christopher Bradley",
+  "license": "ISC",
+  "keywords": [
+    "rxjs"
+  ],
+  "scripts": {
+    "build": "webpack src/index.js -o dist/main.js",
+    "watch": "webpack -w"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
